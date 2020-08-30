@@ -8,10 +8,10 @@ let gameover
 var knock, fail, pass, bgm
 
 function preload() {
-  knock = loadSound('../audio/knock.mp3')
-  fail = loadSound('../audio/fail.mp3')
-  pass = loadSound('../audio/pass.mp3')
-  bgm = loadSound('../audio/bgm.mp3')
+  knock = loadSound('audio/knock.mp3')
+  fail = loadSound('audio/fail.mp3')
+  pass = loadSound('audio/pass.mp3')
+  bgm = loadSound('audio/bgm.mp3')
 }
 
 function setup() {
